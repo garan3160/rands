@@ -25,14 +25,14 @@ void determine_range()
 	switch(mode)
 	{
 		case ASCII:
-			min = 0x20;
+			min = 0x21;
 			max = 0x7e;
 			
 			break;
 
 		case ALPHA:
-			min = 0x40;
-			max = 0x7a;
+			min = 0x41;
+			max = 0x5a;
 
 			break;
 
